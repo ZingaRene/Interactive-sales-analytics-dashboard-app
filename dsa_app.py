@@ -671,7 +671,7 @@ def datascienceacademy_mp10():
     st.title("Zinga René ")
     st.title("Projeto ")
     st.title("📊 App Para Dashboard Interativo de Sales Analytics")
-    st.subheader("Com Banco de Dados SQLite e Streamlit")
+    st.subheader("Com Base de Dados SQLite e Streamlit")
     st.write("Navegue pelo dashboard e use os filtros na barra lateral para diferentes visualizações. Os dados podem ser exportados para formato CSV e PDF.")
     st.markdown("---")
     st.markdown(f"Visão Consolidada de Vendas com KPIs.")
