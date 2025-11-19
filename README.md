@@ -22,3 +22,11 @@ This is a miniature "full-stack" project, covering everything from the data back
 • KPI Visualization: Create metric cards (KPIs) with markdown and HTML/CSS for a customized and professional look. Data Visualization (Plotly):
 
 • Create a diverse set of interactive charts with Plotly Express, including: o Line Chart (Revenue Evolution) o Pie Chart (Category Mix) o Bar Chart (Regional Performance) o Scatter Plot (Quantity vs. Revenue Correlation Analysis)
+
+![Dashboard 1](Dashboard.1..jpeg)
+
+![Dashboard 2](Dashboard.2.jpeg)
+
+![Dashboard 3](Dashboard.3.jpeg)
+
+![Dashboard 4](Dashboard.5.jpeg)
