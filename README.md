@@ -12,3 +12,13 @@ This is a miniature "full-stack" project, covering everything from the data back
 • Database: Create and populate an SQLite database with sample sales data.
 
 • Performance: Implement data caching to ensure the application loads quickly, even with database access.
+
+#### Frontend and UI (Streamlit):
+
+• Advanced Filters: Build a robust filter panel in the sidebar for detailed analysis.
+
+• Professional Layout: Organize the application using tabs to separate the "Graphical View" from the "Data Export".
+
+• KPI Visualization: Create metric cards (KPIs) with markdown and HTML/CSS for a customized and professional look. Data Visualization (Plotly):
+
+• Create a diverse set of interactive charts with Plotly Express, including: o Line Chart (Revenue Evolution) o Pie Chart (Category Mix) o Bar Chart (Regional Performance) o Scatter Plot (Quantity vs. Revenue Correlation Analysis)
