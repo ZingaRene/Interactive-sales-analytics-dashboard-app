@@ -305,7 +305,7 @@ def dsa_filtros_sidebar(df):
     # Cria um "expander" para informações de suporte
     # 'expanded=False' garante que ele comece fechado
     with st.sidebar.expander("🆘 Suporte / Fale conosco", expanded = False):
-        st.write("Se tiver dúvidas envie mensagem para suporte@datascienceacademy.com.br")
+        st.write("Se tiver dúvidas envie mensagem para organizacoesbanda@gmail.com")
     
     # Adiciona uma legenda de rodapé com 'st.sidebar.caption'
     st.sidebar.caption("Dashboard Desenvolvido no Mini-Projeto 10 do Curso Gratuito de Python da Data Science Academy.")
