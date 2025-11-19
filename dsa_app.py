@@ -852,7 +852,6 @@ def datascienceacademy_mp10():
         - **Visualização:** Plotly Express e tema Dark no Streamlit.
         - **Relatórios:** Geração de PDF com FPDF (compatível com Latin-1).
         - **Performance:** Cache de dados (`@st.cache_data`).
-        - **DSA:** Para conhecer mais sobre os cursos visite: www.datascienceacademy.com.br.
         """)
 
 
