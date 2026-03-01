@@ -13,19 +13,23 @@ import pandas as pd  # Para manipulação e análise de dados (DataFrames)
 # Importa bibliotecas de visualização e web app
 import plotly.express as px  # Para criação de gráficos interativos
 import streamlit as st       # A biblioteca principal para criar a Data App
+import streamlit.components.v1 as components
 
-GA_ID ="G-3KEKW1MGG5"  # coloca o teu ID aqui
+GA_ID = "G-3KEKW1MGG5"  # coloca o teu ID aqui
 
-st.markdown(f"""
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag('js', new Date());
-  gtag('config', '{GA_ID}');
-</script>
-""", unsafe_allow_html=True)
+components.html(
+    f"""
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', '{GA_ID}');
+    </script>
+    """,
+    height=0,
+)
 
 
 # Importa a biblioteca de geração de PDF e seus componentes
