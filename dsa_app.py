@@ -14,8 +14,7 @@ import pandas as pd  # Para manipulação e análise de dados (DataFrames)
 import plotly.express as px  # Para criação de gráficos interativos
 import streamlit as st       # A biblioteca principal para criar a Data App
 
-
-GA_ID = "G-3KEKW1MGG5"  # coloca o teu ID aqui
+GA_ID ="G-3KEKW1MGG5"  # coloca o teu ID aqui
 
 st.markdown(f"""
 <!-- Google tag (gtag.js) -->
